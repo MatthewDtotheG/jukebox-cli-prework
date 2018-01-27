@@ -48,7 +48,7 @@ def run
     input.gets.downcase.chomp
     case input
     when "list"
-
+      list(songs)
     when
 
 
