@@ -45,7 +45,7 @@ def run(songs)
   input = ""
   while input
     puts prompt: "Please enter a command:"
-    input.gets.downcase.chomp
+    input.gets.downcase.strip
     case input
     when "list"
       list(songs)
