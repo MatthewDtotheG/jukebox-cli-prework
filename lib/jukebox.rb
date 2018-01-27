@@ -44,5 +44,11 @@ end
 def run
   input = ""
   while input
-    case
+    puts prompt: "Please enter a command:"
+    case input
+
+    when
+
+
+
 end
