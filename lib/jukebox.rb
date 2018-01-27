@@ -19,9 +19,8 @@ def help
 end
 
 def list(songs)
-  puts songs.each_with_index(1)
   songs.each_with_index.map do |song, i|
-    "Hello, #{attendee}! You'll be assigned to room #{i+1}!"
+    puts "#{i+1}. #{song}"
   end
 end
 
