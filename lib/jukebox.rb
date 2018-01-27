@@ -24,6 +24,10 @@ def list(songs)
   end
 end
 
+def play
+
+end
+
 # def say_hello(name)
 #   "Hi #{name}!"
 # end
