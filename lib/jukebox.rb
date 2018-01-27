@@ -52,7 +52,7 @@ def run(songs)
     when "play"
       play(songs)
     when "help"
-      helpp
+      help
 
 
 
