@@ -19,7 +19,7 @@ def help
 end
 
 def list(songs)
-  puts songs.each.with_index(1) 
+  puts songs.each_with_index(1) 
 end
 
 # def say_hello(name)
