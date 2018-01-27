@@ -19,7 +19,10 @@ def help
 end
 
 def list(songs)
-  puts songs.each_with_index(1) 
+  puts songs.each_with_index(1)
+  attendees.each_with_index.map do |attendee, i|
+    "Hello, #{attendee}! You'll be assigned to room #{i+1}!"
+  end
 end
 
 # def say_hello(name)
