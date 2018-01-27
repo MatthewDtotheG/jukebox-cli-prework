@@ -45,6 +45,7 @@ def run
   input = ""
   while input
     puts prompt: "Please enter a command:"
+    input.gets.downcase.chomp
     case input
 
     when
