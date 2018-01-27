@@ -18,8 +18,8 @@ def help
         - exit : exits this program"
 end
 
-def list
-  
+def list(songs)
+
 end
 
 # def say_hello(name)
