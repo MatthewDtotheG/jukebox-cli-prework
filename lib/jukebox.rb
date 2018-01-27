@@ -47,6 +47,7 @@ def run
     puts prompt: "Please enter a command:"
     input.gets.downcase.chomp
     case input
+    when "list"
 
     when
 
